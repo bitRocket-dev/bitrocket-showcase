@@ -4,8 +4,6 @@ The application is developed in react using the [typescript](https://www.typescr
 
 The use of the [VSCode](https://code.visualstudio.com/)\_ editor is suggested
 
-Application _state_ is managed using [redux](https://redux.js.org/introduction/getting-started)
-
 The code is validated with [eslint](https://eslint.org/) and [prettier](https://prettier.io/) at commit time, using [husky](https://github.com/typicode/husky). The format of the commit is validated using [commitlint](https://github.com/conventional-changelog/commitlint) (see below).
 
 ## Style & CSS
