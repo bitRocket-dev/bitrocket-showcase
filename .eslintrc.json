@@ -12,6 +12,7 @@
   },
   "plugins": ["react", "import", "react-hooks"],
   "rules": {
+    "@typescript-eslint/indent": "off",
     "react/react-in-jsx-scope": "off",
     "curly": "off",
     "no-empty": "off",
