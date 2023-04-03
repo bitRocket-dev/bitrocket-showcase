@@ -28,7 +28,8 @@
     "test:type": "tsc --noEmit",
     "postinstall": "husky install",
     "storybook": "start-storybook -p 6006 -s public",
-    "build:storybook": "build-storybook -s public"
+    "build:storybook": "build-storybook -s public",
+    "lint": "tsc --project  ./tsconfig.json --noEmit && eslint  --ext=jsx,ts,tsx,js,css,scss"
   },
   "eslintConfig": {
     "extends": [
@@ -74,7 +75,7 @@
     "@typescript-eslint/parser": "^5.57.0",
     "babel-core": "^6.26.3",
     "babel-plugin-named-exports-order": "^0.0.2",
-    "eslint": "^8.0.0",
+    "eslint": "^8.36.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.8.0",
@@ -93,6 +94,8 @@
       "yarn lint",
       "yarn format"
     ],
-    "webpack": "^5.76.2"
+    "webpack": "^5.76.2",
+    "eslint-plugin-typescript": "^0.14.0",
+    "prettier": "2.8.6"
   }
 }
