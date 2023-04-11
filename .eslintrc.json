@@ -30,7 +30,7 @@
     "project": "./tsconfig.json"
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": ["react", "import", "react-hooks", "@typescript-eslint"],
+  "plugins": ["react", "import", "react-hooks", "@typescript-eslint", "@emotion"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/indent": "off",

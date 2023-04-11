@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "@emotion/babel-plugin": "^11.10.6",
+    "@emotion/eslint-plugin": "^11.10.0",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@emotion/unitless": "^0.8.0",
     "@storybook/react": "^6.5.16",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
