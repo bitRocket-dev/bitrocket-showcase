@@ -2,13 +2,20 @@
 
 import { Meta, Story } from '@storybook/react';
 
-import HamburgerMenu from '../components-ui/HamburgerMenu';
+import { HamburgerMenu, Props } from '../components-ui/HamburgerMenu';
+
 export default {
   title: 'Example/HamburgerMenu',
   component: HamburgerMenu,
+  argTypes: {},
 } as Meta;
 
-const Template: Story = () => <HamburgerMenu />;
+const Template: Story<Props> = props => <HamburgerMenu {...props} />;
 
 export const Basic = Template.bind({});
-Basic.args = {};
+
+Basic.args = {
+  firstContent: 'test',
+  secondContent: 'test2',
+  thirdContent: 'test3',
+};
