@@ -8,7 +8,7 @@ import srcBank from './assets/bg_bank.svg';
 import srcCalendar from './assets/bg_calendar.svg';
 import srcClose from './assets/bg_close.svg';
 import srcTime from './assets/bg_time.svg';
-import { TSize } from './helpers/declaration';
+import { TSize } from './helpers/declarations';
 import { utilityGetSizes } from './helpers/getSize';
 
 export type TIcon = 'bank' | 'close' | 'calendar' | 'time';
