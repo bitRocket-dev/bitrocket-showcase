@@ -4,8 +4,8 @@ import { SyntheticEvent, FC, memo } from 'react';
 
 import styled from '@emotion/styled';
 
-import { TSize } from '../utils/declaration';
-import { utilityGetFontSize } from '../utils/utilityGetFontSize';
+import { TSize } from '../../utils/declaration';
+import { utilityGetFontSize } from '../../utils/utilityGetFontSize';
 
 interface PropsWrapper {
   disabled?: boolean;
