@@ -1,6 +1,6 @@
 /** @format */
 
-import { TSize } from './declaration';
+import { TSize } from './declarations';
 
 export const utilityGetSizes = (size: TSize): { width: number; height: number } => {
   switch (size) {

@@ -6,7 +6,11 @@ import { FC, memo, Ref } from 'react';
 import { DateIcon } from './partials/DateIcon';
 import { DateInputField } from './partials/DateInputField';
 import { DateWrapper } from './partials/DateWrapper';
+<<<<<<< HEAD
 import { TIcon, UIIcon } from '../../Icon/Icon';
+=======
+import { TIcon, UIIcon } from '../../Icon';
+>>>>>>> 7594675 (feat: added time picker component from rocket lib to storybook)
 // #endregion
 
 interface Props {
