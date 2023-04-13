@@ -2,7 +2,7 @@
 
 import { Story, Meta } from '@storybook/react/types-6-0';
 
-import { Props, UIButton } from '../components-ui/Button';
+import { Props, UIButton } from '../components-ui/Button/Button';
 
 export default {
   title: 'Example/Button',
