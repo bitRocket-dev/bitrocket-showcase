@@ -5,7 +5,7 @@ import { FC, memo, useState } from 'react';
 
 import DatePicker from 'react-datepicker';
 
-import { InputDate } from '../Input/Date';
+import { InputDate } from '../Input/RocketLib/Date';
 import { UIText } from '../Text';
 import { Field } from '../TimePicker/partials/Field';
 // #endregion
