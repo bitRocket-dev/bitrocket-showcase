@@ -32,6 +32,7 @@
   "parser": "@typescript-eslint/parser",
   "plugins": ["react", "import", "react-hooks", "@typescript-eslint", "@emotion"],
   "rules": {
+    "@typescript-eslint/quotes": "off",
     "react/react-in-jsx-scope": "off",
     "@typescript-eslint/indent": "off",
     "curly": "off",
