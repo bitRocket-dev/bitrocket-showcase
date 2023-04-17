@@ -1,6 +1,6 @@
 /** @format */
 
-import { TFontTag } from '../components-ui/Text/partials/Formatter';
+import { TFontTag } from '../components/Text/partials/Formatter';
 
 interface TextProps {
   size: string;
